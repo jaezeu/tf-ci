@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-#checkov:skip=CKV_AWS_18:Ensure the S3 bucket has access logging enabled
+  #checkov:skip=CKV_AWS_18:Ensure the S3 bucket has access logging enabled
   #checkov:skip=CKV2_AWS_61:Ensure that an S3 bucket has a lifecycle configuration
   #checkov:skip=CKV2_AWS_62:Ensure S3 buckets should have event notifications enabled
   #checkov:skip=CKV_AWS_145:Ensure that S3 buckets are encrypted with KMS by default
