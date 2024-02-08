@@ -8,3 +8,7 @@ resource "aws_s3_bucket" "example" {
   #checkov:skip=CKV_AWS_21:Ensure all data stored in the S3 bucket have versioning enabled
   bucket = "jaz-terraform-ci-bucket-123"
 }
+
+resource "aws_s3_bucket" "example2" {
+  bucket = "jaz-tf-ci-bucket-456"
+}
